@@ -68,3 +68,18 @@ vim /etc/rc.local
 // 设置执行权限：
 chmod 755 rc.local
 ```
+
+# 添加签名
+```
+cd /root
+
+mkdir cert
+
+cd cert
+
+curl -O https://raw.githubusercontent.com/kk37005/V2rayPemKey/master/cert.key
+
+curl -O https://raw.githubusercontent.com/kk37005/V2rayPemKey/master/cert.pem
+
+
+```
