@@ -83,3 +83,16 @@ curl -O https://raw.githubusercontent.com/kk37005/V2rayPemKey/master/cert.pem
 
 
 ```
+
+# 配置
+```
+cd /usr/local/nginx/config
+
+mv nginx.conf nginx.conf.b1
+
+// 下载配置文件
+curl -O https://raw.githubusercontent.com/kk37005/V2rayPemKey/master/nginx.conf
+
+../sbin/nginx -s reload
+
+```

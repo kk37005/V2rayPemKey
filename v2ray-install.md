@@ -14,4 +14,5 @@ cd /usr/local/etc/v2ray/
 // 下载配置文件
 curl -O https://raw.githubusercontent.com/kk37005/V2rayPemKey/master/v2ray-config/config.json
 
+systemctl restart v2ray
 ```
