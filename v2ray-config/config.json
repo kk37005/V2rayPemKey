@@ -17,6 +17,7 @@
             },
             "protocol":"vmess",
             "port":10010,
+            "listen": "0.0.0.0",
             "settings":{
                 "clients":[
                     {

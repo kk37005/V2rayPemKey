@@ -4,6 +4,8 @@ yum install -y vim
 
 yum install -y wget
 
+yum install net-tools
+
 yum install -y gcc
 
 yum install -y pcre pcre-devel
