@@ -28,31 +28,7 @@
                     }
                 ]
             }
-        },
-        {
-          "streamSettings":{
-              "network":"ws",
-              "wsSettings":{
-                  "path":"/ws/",
-                  "headers":{
-                      "Host":"v2ray.kk37005.ml"
-                  }
-              }
-          },
-          "protocol":"vmess",
-          "port":10011,
-          "listen": "0.0.0.0",
-          "settings":{
-              "clients":[
-                  {
-                      "alterId":0,
-                      "security":"auto",
-                      "id":"fb87e58b-fa82-4230-80b6-6ab9de3b2a9b",
-                      "level":1
-                  }
-              ]
-          }
-      }
+        }
     ],
     "outbounds": [{
       "protocol": "freedom",
