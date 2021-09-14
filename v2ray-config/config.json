@@ -16,7 +16,7 @@
                 }
             },
             "protocol":"vmess",
-            "port":10010,
+            "port":10088,
             "listen": "0.0.0.0",
             "settings":{
                 "clients":[
@@ -40,7 +40,7 @@
               }
           },
           "protocol":"vmess",
-          "port":10011,
+          "port":10086,
           "listen": "0.0.0.0",
           "settings":{
               "clients":[
