@@ -97,8 +97,13 @@ curl -O https://raw.githubusercontent.com/kk37005/V2rayPemKey/master/nginx.conf
 
 ../sbin/nginx -s reload
 
+// function 2
+
+ls /usr/local/nginx/conf
 
 mv /usr/local/nginx/conf/nginx.conf /usr/local/nginx/conf/nginx.conf.b2
+
 cp nginx.conf /usr/local/nginx/conf
+
 /usr/local/nginx/sbin/nginx -s reload
 ```

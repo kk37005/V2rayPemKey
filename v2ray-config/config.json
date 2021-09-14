@@ -33,7 +33,7 @@
           "streamSettings":{
               "network":"ws",
               "wsSettings":{
-                  "path":"/ws/",
+                  "path":"/ws/ml/",
                   "headers":{
                       "Host":"v2ray.kk37005.ml"
                   }
@@ -47,11 +47,23 @@
                   {
                       "alterId":0,
                       "security":"auto",
-                      "id":"fb87e58b-fa82-4230-80b6-6ab9de3b2a9b",
+                      "id":"afaa35dd-3c63-44b1-8e44-638f74c95b36",
                       "level":1
                   }
               ]
           }
+      },
+      {
+        "port": 10087, 
+        "protocol": "vmess",    
+        "settings": {
+          "clients": [
+            {
+              "id": "afaa35dd-3c63-44b1-8e44-638f74c95b37",
+              "alterId": 66
+            }
+          ]
+        }
       }
     ],
     "outbounds": [{
