@@ -88,7 +88,7 @@ curl -O https://raw.githubusercontent.com/kk37005/V2rayPemKey/master/cert.pem
 
 # 配置
 ```
-cd /usr/local/nginx/config
+cd /usr/local/nginx/conf
 
 mv nginx.conf nginx.conf.b1
 
