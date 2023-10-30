@@ -34,6 +34,9 @@ make install
 
 # 切换到/usr/local/nginx安装目录
 ```
+// 设置 nginx 全局访问
+ln -s /usr/local/nginx/sbin/nginx /usr/local/bin/
+
 cd /usr/local/nginx
 
 cd config
